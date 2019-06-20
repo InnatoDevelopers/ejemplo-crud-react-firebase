@@ -4,6 +4,7 @@
 
 .mainContent{
     margin-top: 2rem;
+    min-height: 470px;
 }
 
 .cursor-pointer{
@@ -13,3 +14,17 @@
 .brand-logo{
     font-size: 1.5rem !important;
 }
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.btn-floating{
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .text-button {
+      font-size: 9px;
+    }
+  }

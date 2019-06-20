@@ -82,12 +82,11 @@ class UsersList extends Component {
                             </tbody>
                         </table>
                     </div>
+                    
                 </div>
-                <div className="fixed-action-btn">
-                    <Link to="/dashboard/user" className="btn-floating btn-large red">
+                <Link to="/dashboard/user" className="btn-floating btn-large red">
                         <i className="large material-icons">add</i>
                     </Link>
-                </div>
             </div>
         )
     }
