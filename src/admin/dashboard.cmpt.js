@@ -3,6 +3,7 @@ import firebase from 'firebase';
 import Navigation from './nav.cmpt';
 import './dashboard.css';
 import AdminRouter from '../routing/admin.router';
+import LoadingCmpt from '../generics/loading.cmpt';
 
 class Dashboard extends Component {
 
@@ -21,29 +22,13 @@ class Dashboard extends Component {
         });
     }
 
+
     render() {
 
         //Si aún no se encuentra el usuario en el state no se muestra retornara 
         if (!this.state.user) {
             return (
-                <div className="container-fluid">
-                    <div className="row loading-content valign-wrapper">
-                        <div className="col s12 center-align">
-                            <div className="preloader-wrapper big active">
-                                <div className="spinner-layer spinner-blue-only">
-                                    <div className="circle-clipper left">
-                                        <div className="circle"></div>
-                                    </div><div className="gap-patch">
-                                        <div className="circle"></div>
-                                    </div><div className="circle-clipper right">
-                                        <div className="circle"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Cargando...</p>
-                        </div>
-                    </div>
-                </div>
+                <LoadingCmpt />
             )
         }
 

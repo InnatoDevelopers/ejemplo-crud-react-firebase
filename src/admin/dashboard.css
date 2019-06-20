@@ -5,3 +5,11 @@
 .mainContent{
     margin-top: 2rem;
 }
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.brand-logo{
+    font-size: 1.5rem !important;
+}
