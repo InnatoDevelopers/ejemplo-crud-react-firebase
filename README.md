@@ -9,7 +9,7 @@ Tecnologías:
 
 ### Antes de Empezar
 Verifica tener instalado
-- [https://nodejs.org/es/](Node JS)]
+[https://nodejs.org/es/](Node JS)]
 
 ## Comandos
 
