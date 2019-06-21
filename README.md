@@ -9,7 +9,7 @@ Tecnologías:
 
 ### Antes de Empezar
 Verifica tener instalado
-[https://nodejs.org/es/](Node JS)]
+[https://nodejs.org/es/](Node JS)
 
 ## Comandos
 
@@ -23,7 +23,7 @@ Para descargar este proyecto abre tu consola y ejecuta
 ### Para correr la aplicación de manera local `npm start` 
 
 Corre esta aplicación en modo desarrollo.<br>
-Open [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
+Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
 
 La página se recargara automatimante si tu generas cambios en los archivos.<br>
 También veras los errores en la consola.
