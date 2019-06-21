@@ -7,12 +7,18 @@ Tecnologías:
 - Firebase (RealTime Database)
 - Materialize CSS
 
+### Antes de Empezar
+Verifica tener instalado
+- [https://nodejs.org/es/](Node JS)]
+
 ## Comandos
 
 ### `git clone`
 
 Para descargar este proyecto abre tu consola y ejecuta
 `git clone https://github.com/InnatoDevelopers/ejemplo-crud-react-firebase.git`
+
+### Descargar dependencias `npm install` 
 
 ### Para correr la aplicación de manera local `npm start` 
 
